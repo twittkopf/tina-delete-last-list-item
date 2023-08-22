@@ -30,14 +30,11 @@ export default defineConfig({
             type: "string",
             name: "title",
             label: "Title",
-            required: true,
           },
           {
             type: "rich-text",
             name: "content",
             label: "Content",
-            isBody: true,
-            required: true,
           },
         ],
       },
@@ -60,13 +57,11 @@ export default defineConfig({
             type: "string",
             name: "title",
             label: "Title",
-            required: true,
           },
           {
             type: "rich-text",
             name: "content",
             label: "Content",
-            isBody: true,
           },
           {
             type: "object",
